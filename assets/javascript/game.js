@@ -29,7 +29,6 @@ document.onkeyup = function(event) {
     }   
     else { 
         guessesLeft--;
-       
             if (guessesLeft == 0) {
                 alert("Game Over! Reset to play again.");
                 losses++;
@@ -44,6 +43,7 @@ document.onkeyup = function(event) {
     }
     return;
 }
+
 })
 
 
